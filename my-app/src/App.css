@@ -1,32 +1,88 @@
 .App {
   text-align: center;
-  background-color: #1a1a1a;
+  background-color: #fff;
+  margin: 0 auto;
+  height: 100vh;
 }
 
-
-
-.App-header {
-  background-color: #1a1a1a;
+.header {
   display: flex;
-  /* flex-direction: column; */
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
-  font-size: 2.5rem;
-  color: #511f8a;
+  flex-direction: row;
+  font-size: 1.75rem;
+  margin-bottom: 100px;
+  padding: 20px auto;
+  background: #bdbdbd;
 }
 
+h1{
+  color: #511f8a;
+  margin-right: 50px;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid #511f8a;
+  margin-right: 5px;
+  background: none;
+}
+
+button{
+  background: #511f8a;
+  color: #fff;
+  border: none;
+  padding: 5px 12px
+}
 .userCard{
   height: 300px;
-  width: 200px;
-  background: #b3af80;
-  margin: 10px;
-  padding: 5px;
+  width: 50%;
+  justify-content: space-between;
+  background: none;
+  margin: 10px auto;
+  padding-bottom: 50px;
+  display: flex;
+  border-bottom: 2px solid #511f8a;
+  text-align: right;
 }
 
-.card{
-  height: 250px;
-  width: 150px;
-  background: #727056;
+.followingCard{
+  width: 10%;
+  background: none;
+  border-bottom: 2px solid #a5a4a4;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   margin: 10px;
-  padding: 5px;
+  flex-direction: column;
+  
+}
+
+.followingCard img{
+  height: 70px;
+  width: 70px;
+}
+
+.following-container{
+  display: flex;
+  text-align: center;
+  object-fit: cover;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.following-btn{
+  background: none;
+  font-size: 1.25rem;
+  color: #511f8a;
+  max-height: 2rem;
+  margin-top: 20px;
+}
+.following-btn:hover{
+  transform: scale(1.05);
+  color: #772ccc;
 }
