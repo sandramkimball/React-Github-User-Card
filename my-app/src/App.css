@@ -45,6 +45,10 @@ button{
   border-bottom: 2px solid #511f8a;
   text-align: right;
 }
+.userCard p{
+  color: #be1a1a;
+  font-size: 1.25rem;
+}
 
 .followingCard{
   width: 10%;
@@ -56,12 +60,21 @@ button{
   align-items: center;
   margin: 10px;
   flex-direction: column;
-  
 }
 
 .followingCard img{
   height: 70px;
   width: 70px;
+  padding-top: 5px;
+}
+
+.followingCard p{
+  font-size: 12px;
+}
+
+.followingCard:hover{
+  transform: scale(1.1);
+  background: #ebeaeac9;
 }
 
 .following-container{

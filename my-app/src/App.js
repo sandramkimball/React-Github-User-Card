@@ -88,6 +88,7 @@ class App extends React.Component {
             <img height='300' src={this.state.user.avatar_url} alt='profile avatar'/>
             <div>
               <h2>{this.state.user.login}</h2>
+              <p>{this.state.user.name}</p>
               <p>{this.state.user.location}</p>
               <p>{this.state.user.bio}</p>
               
